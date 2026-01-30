@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.InputMismatchException;
+
 public class Giaiphuongtrinh {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -22,7 +22,7 @@ public class Giaiphuongtrinh {
                 double x = -b / a;
                 System.out.printf("x = %.2f", x);
             }
-        } catch (InputMismatchException e) {
+        } catch (Exception e) {
             //xử lý khi nhập không đúng yêu cầu
             System.out.println("Loi: Vui long nhap so");
             System.out.println("Vui long chay lai chuong trinh.");
