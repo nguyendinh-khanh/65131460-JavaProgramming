@@ -12,10 +12,10 @@ public class DoiTien {
         
         // Tính theo USD
         double UsdSangVnd = soTien * USD;
-        System.out.printf("Tu %.2f USD sang VND la %,.0f VND\n", soTien, UsdSangVnd);
+        System.out.printf("Tu %.2f USD sang VND bang %,.0f VND\n", soTien, UsdSangVnd);
 
         // Tính theo EUR
         double EurSangVnd = soTien * EUR;
-        System.out.printf("Tu %.2f EUR sang VND la %,.0f VND\n", soTien, EurSangVnd);
+        System.out.printf("Tu %.2f EUR sang VND bang %,.0f VND\n", soTien, EurSangVnd);
     }
 }
